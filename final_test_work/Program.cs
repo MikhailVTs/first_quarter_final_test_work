@@ -94,7 +94,7 @@ void PrintArray(string[] array)
 Console.WriteLine($"Здраствуйте, Вы будите создавать свой массив или воспользуютесь массивом по умолчанию?");
 Console.WriteLine($"Для того чтобы создать свой массив, нажмите клавишу 'y'");
 Console.WriteLine($"Для того чтобы воспользоваться массивом по умолчанию нажмите клавишу 'n'");
-Console.Write($"Что Вы виберете: ");
+Console.Write($"Что Вы выберете: ");
 
 string button = Console.ReadLine()!;
 
