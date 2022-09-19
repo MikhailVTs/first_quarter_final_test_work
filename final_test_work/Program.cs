@@ -103,7 +103,7 @@ Console.WriteLine();
 if (button.ToLower() == "y")
 {
     Console.WriteLine("Создаем свой массив");
-    Console.Write("Введите количество строк которых Вы хотите добавить в новый массив: ");
+    Console.Write("Введите количество строк, которых Вы хотите добавить в новый массив: ");
 
     int numberOfLines = int.Parse(Console.ReadLine()!);
 
